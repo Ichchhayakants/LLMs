@@ -11,8 +11,8 @@ from langchain.chat_models import ChatOpenAI
 import gradio as gr
 import sys
 
-os.environ["OPENAI_API_KEY"] = "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"
-
+# os.environ["OPENAI_API_KEY"] = "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"
+OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
 PERSIST_DIR = "./storage"
 
 
